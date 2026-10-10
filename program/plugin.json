@@ -1,0 +1,9 @@
+{
+  "id": "omegaplanner",
+  "name": "OmegaPlanner plan checker",
+  "version": "0.2.1",
+  "contract": "0.1",
+  "module": "program.py",
+  "capabilities": [],
+  "description": "Stored-plan validation with opt-in canonical review-return completeness."
+}

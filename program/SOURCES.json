@@ -1,0 +1,8 @@
+{
+  "sources": {
+    "protocol.py": "3d46dba93b6d1c9f6ca4692478ef9a8a0ed1ebeb77baf82f1e70f6b2f1e079cc",
+    "semantics.py": "fc8c2ec68c2517a56ba2626389f87d101a7a5538e90b4a4111ec7c22c1b49d86"
+  },
+  "program_sha256": "497cd1659f45eb177779fbb9a92f016ea4a205323622ba555a6cadd17a5bc8ca",
+  "generator": "tools/package_checker.py"
+}

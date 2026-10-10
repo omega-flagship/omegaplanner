@@ -1,0 +1,16 @@
+.omega-task-boards { max-width: 1500px; margin: auto; padding: 24px; color: inherit; font: inherit; }
+.omega-task-boards h1 { margin-bottom: 8px; }
+.board-controls, .board-matching form { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; margin: 24px 0; }
+.omega-task-boards label { display: flex; flex-direction: column; gap: 6px; }
+.omega-task-boards input, .omega-task-boards select, .omega-task-boards button { font: inherit; color: inherit; background: transparent; border: 1px solid currentColor; border-radius: 6px; padding: 8px 12px; }
+.omega-task-boards button { cursor: pointer; }
+.omega-task-boards button:focus-visible, .omega-task-boards input:focus-visible, .omega-task-boards select:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+.board-columns { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.board-columns section { border-top: 2px solid currentColor; padding-top: 8px; }
+.board-columns h2 { font-size: 18px; display: flex; justify-content: space-between; }
+.omega-task-boards article { border: 1px solid currentColor; border-radius: 8px; padding: 16px; margin: 12px 0; overflow-wrap: anywhere; }
+.omega-task-boards .task-title { width: 100%; text-align: left; font-weight: 600; border: 0; padding: 0; }
+.omega-task-boards small { display: block; }
+.board-matching { margin-top: 32px; border-top: 1px solid currentColor; }
+@media (max-width: 1000px) { .board-columns { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .board-columns { grid-template-columns: 1fr; } .omega-task-boards { padding: 16px; } }

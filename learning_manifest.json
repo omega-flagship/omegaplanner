@@ -1,0 +1,30 @@
+{
+  "id": "omegaplanner-learning-consumer",
+  "version": "0.1.1",
+  "provides": [
+    "planner.learning.episode-export",
+    "planner.learning.candidate-inspection",
+    "planner.learning.offline-comparison",
+    "planner.learning.actor-scoped-export"
+  ],
+  "consumes": [
+    "omegalearn/event/1",
+    "omegalearn/package/1",
+    "omegalearn.Ledger",
+    "omegalearn.adapters.resolve_artifact_export"
+  ],
+  "effects": [
+    "caller-owned local candidate and retraction projections",
+    "existing actor-scoped host artifact read through provided context"
+  ],
+  "entrypoints": {
+    "library": "omegaplanner.learning:from_learn_ledger",
+    "host_export_library": "omegaplanner.learning:from_host_exports"
+  },
+  "source_pins": {
+    "platform": "99c2d740322b5c14f728dc2a8a4c5b99c5f84633"
+  },
+  "acceptance_level": "L0",
+  "authenticated": false,
+  "executes_imported_rules": false
+}
